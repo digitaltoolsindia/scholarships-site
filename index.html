@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scholarships for International Students</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Scholarships for International Students</h1>
+    <nav>
+      <button onclick="filterPosts('all')">All</button>
+      <button onclick="filterPosts('UK')">UK</button>
+      <button onclick="filterPosts('Germany')">Germany</button>
+      <button onclick="filterPosts('Canada')">Canada</button>
+    </nav>
+  </header>
+
+  <main id="scholarship-list">
+    <!-- Sample post -->
+    <article class="post" data-country="UK" data-deadline="2025-10-15">
+      <h2>Chevening Scholarship – UK</h2>
+      <p><strong>Deadline:</strong> 15 October 2025</p>
+      <p><a href="#">View details</a></p>
+    </article>
+    <article class="post" data-country="Germany" data-deadline="2025-09-30">
+      <h2>DAAD Scholarship – Germany</h2>
+      <p><strong>Deadline:</strong> 30 September 2025</p>
+      <p><a href="#">View details</a></p>
+    </article>
+  </main>
+
+  <footer>
+    <p><a href="about.html">About</a> | <a href="privacy.html">Privacy Policy</a> | <a href="disclaimer.html">Disclaimer</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
